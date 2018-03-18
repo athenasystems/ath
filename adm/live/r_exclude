@@ -1,0 +1,13 @@
+- ath/etc/admins
+- ath/etc/users
+- ath/etc/custs
+- ath/etc/supps
+- ath/var/log
+- ath/var
+- ath/adm/.*
+- ath/.*
+- ath/pub/adm/.*
+- ath/pub/mng/.*
+- ath/pub/cust/.*
+- ath/pub/supp/.*
+- ath/pub/www/.*

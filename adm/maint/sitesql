@@ -1,0 +1,3 @@
+ALTER TABLE `staff` DROP COLUMN `lastlogin`;
+ALTER TABLE `contacts` DROP COLUMN `lastlogin`;
+ALTER TABLE `pwd` ADD COLUMN `lastlogin` INT NULL DEFAULT 0 AFTER `init`;

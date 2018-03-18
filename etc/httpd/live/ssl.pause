@@ -1,0 +1,17 @@
+<VirtualHost *:80>
+
+	ServerName 100.athena.systems
+	ServerAlias 101.athena.systems 102.athena.systems 103.athena.systems 104.athena.systems 105.athena.systems 106.athena.systems 107.athena.systems 108.athena.systems 109.athena.systems 110.athena.systems 111.athena.systems 112.athena.systems 113.athena.systems 114.athena.systems 115.athena.systems 116.athena.systems 117.athena.systems 118.athena.systems 119.athena.systems 120.athena.systems 121.athena.systems 122.athena.systems 123.athena.systems 124.athena.systems 125.athena.systems 126.athena.systems 127.athena.systems 128.athena.systems 129.athena.systems 130.athena.systems 131.athena.systems 132.athena.systems 133.athena.systems 134.athena.systems 135.athena.systems 136.athena.systems 137.athena.systems 138.athena.systems 139.athena.systems 140.athena.systems 141.athena.systems 142.athena.systems 143.athena.systems 144.athena.systems 145.athena.systems 146.athena.systems 147.athena.systems 148.athena.systems 149.athena.systems 150.athena.systems 151.athena.systems 152.athena.systems 153.athena.systems 154.athena.systems 155.athena.systems 156.athena.systems 157.athena.systems 158.athena.systems 159.athena.systems 160.athena.systems 161.athena.systems 162.athena.systems 163.athena.systems 164.athena.systems 165.athena.systems 166.athena.systems 167.athena.systems 168.athena.systems 169.athena.systems 170.athena.systems 171.athena.systems 172.athena.systems 173.athena.systems 174.athena.systems 175.athena.systems 176.athena.systems 177.athena.systems 178.athena.systems 179.athena.systems 180.athena.systems 181.athena.systems 182.athena.systems 183.athena.systems 184.athena.systems 185.athena.systems 186.athena.systems 187.athena.systems 188.athena.systems 189.athena.systems 
+	ServerAdmin admin@athena.systems
+			
+	 DocumentRoot /srv/www/100.athena.systems/www
+	
+	<Directory /srv/www/100.athena.systems/www/>
+		AllowOverride All
+		Order allow,deny
+		allow from all
+                Require all granted
+	</Directory>
+
+</VirtualHost>
+

@@ -1,0 +1,1 @@
+apache2 stop && /root/letsencrypt/letsencrypt-auto certonly --standalone -d athena.systems -d www.athena.systems -d athena.athena.systems -d staff.athena.systems -d customers.athena.systems -d suppliers.athena.systems -d login.athena.systems -d help.athena.systems -d mng.athena.systems -d adm.athena.systems && apache2 start

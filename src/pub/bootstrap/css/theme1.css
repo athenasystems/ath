@@ -1,0 +1,47 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	
+}
+
+#diaryday {
+	font-size: 90%;
+	border: 1px #999 solid;
+	padding: 2px;
+	margin: 2px;
+	display: inline;
+	width: 13%;
+	min-height: 100px;
+	float: left;
+}
+
+#diarydayblank {
+	background-color: #ccc;
+	border: 1px #999 solid;
+	padding: 2px;
+	margin: 2px;
+	display: inline;
+	width: 13%;
+	min-height: 100px;
+	float: left;
+}
+.navbar-inverse{
+	background-color: #245580;
+	background-image: linear-gradient(to bottom, #245580 0px, #275C8B 100%);
+	
+}
+.navbar-inverse .navbar-nav > .open > a{
+	background-color: #245580;
+	background-image: linear-gradient(to bottom, #245580 0px, #275C8B 100%);
+	
+}
+.navbar-inverse .navbar-nav > li > a {
+
+    color: #ddd;
+
+}
+.navbar-inverse .navbar-brand{
+
+    color: #ddd;
+
+}

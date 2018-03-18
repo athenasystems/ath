@@ -1,0 +1,27 @@
+
+	DocumentRoot /srv/ath/pub/supp	    
+		<Directory /srv/ath/pub/supp/>
+			AllowOverride None
+			Options +MultiViews +Indexes
+	    AddType application/x-httpd-php .php
+	    Order allow,deny
+	    Allow from all
+	    Require all granted
+		</Directory>
+
+	ScriptAlias /bin/ /srv/ath/src/perl/supp/
+  <Directory /srv/ath/src/perl/supp/>
+		AllowOverride None
+		Options +ExecCGI +MultiViews +SymLinksIfOwnerMatch
+		Order allow,deny
+		Allow from all
+    Require all granted
+  </Directory>
+
+	Alias /files/ /srv/ath/var/files/supp/
+  <Directory /srv/ath/var/files/supp/>
+          AllowOverride None
+          Order allow,deny
+          Allow from all
+          Require all granted
+  </Directory>

@@ -1,0 +1,38 @@
+body {
+	
+	font-family:   Arial, Verdana; 
+	font-size: 100%;
+
+}
+
+#nav {
+	list-style-type: none;
+	margin: 0;
+	margin-left: 3px;
+	padding: 0;
+	height: 32px;
+}
+
+	#nav li {
+		float: left; 
+		display: block;
+		width:10.29%;
+	}
+	
+		#nav li a {
+			display: block;
+			padding: 8px;
+			background-color: #28288c;
+			color: #eee;
+			text-align: center;
+			text-decoration: none;
+			font-size: 90%;
+			border: 1px solid #fff;
+		}	
+		
+			#nav li a:hover, #nav li.here a {
+				background-color: #7f7fff;
+				background-position:top;
+				color: #fff;		
+			}
+			

@@ -1,0 +1,18 @@
+CPAN::Meta ExtUtils::CBuilder ExtUtils::ParseXS CPAN::Meta::YAML Parse::CPAN::Meta 
+Apache::RPC::Server Apache::RPC::Status Attribute::Params::Validate Bundle::LWP CPAN::Meta::Requirements 
+CPAN::Meta::Spec CPAN::Meta::Validator CPAN::Meta::YAML Class::Load Class::Load::PP Class::Singleton 
+Crypt::Blowfish Crypt::CBC Data::OptList DateTime DateTime::Duration DateTime::Helpers DateTime::Infinite 
+DateTime::TimeZone DateTime::LeapSecond DateTime::Locale DateTime::Locale::Base Dist::CheckConflicts 
+ExtUtils::ParseXS::Constants ExtUtils::ParseXS::CountLines ExtUtils::ParseXS::Utilities 
+ExtUtils::Typemaps ExtUtils::Typemaps::Cmd ExtUtils::Typemaps::InputMap ExtUtils::Typemaps::OutputMap 
+ExtUtils::Typemaps::Type LWP::Protocol::http10  LWP::Protocol::https10  Math::Round Module::Runtime 
+Package::DeprecationManager Package::Stash Package::Stash::PP Package::Stash::XS Params::Check 
+Params::Util Params::Validate Params::Validate::Constants  Params::Validate::PP  Params::Validate::XS  
+Pod::Plainer Sub::Exporter Sub::Exporter::Util Sub::Install Term::ReadLine::Perl Test::Builder::IO::Scalar 
+Test::Output Test::Output::Tie Test::Requires Test::Tester Test::Tester::Capture  Test::Tester::CaptureRunner  
+Test::Tester::Delegate  WWW::Mechanize WWW::Mechanize::Image  WWW::Mechanize::Link  WWW::RobotRules 
+WWW::RobotRules::AnyDBM_File   XML::SAX XML::SAX::Base XML::SAX::DocumentLocator  XML::SAX::Exception 
+XML::SAX::Expat XML::SAX::ParserFactory XML::SAX::PurePerl XML::SAX::PurePerl::DebugHandler  
+XML::SAX::PurePerl::Exception  XML::SAX::PurePerl::Productions  XML::SAX::PurePerl::Reader  
+XML::SAX::PurePerl::Reader::Stream  XML::SAX::PurePerl::Reader::String
+  XML::SAX::PurePerl::Reader::URI  XSLoader  version::vxs Locale::Currency::Format Device::Gsm

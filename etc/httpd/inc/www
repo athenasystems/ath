@@ -1,0 +1,12 @@
+
+DocumentRoot /srv/ath/pub/www
+
+<Directory /srv/ath/pub/www/>
+	AllowOverride None
+	Options +MultiViews +Indexes
+	AddType application/x-httpd-php .php
+        Order allow,deny
+        Allow from all
+	Require all granted
+</Directory>
+

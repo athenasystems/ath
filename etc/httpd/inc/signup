@@ -1,0 +1,13 @@
+
+DocumentRoot /srv/ath/pub/signup
+
+<Directory /srv/ath/pub/signup/>
+	AllowOverride AuthConfig
+	Options +MultiViews
+	AddType application/x-httpd-php .php
+	Order allow,deny
+	allow from all
+	Require ip 82.15.139.160
+#	Require all granted
+</Directory>
+

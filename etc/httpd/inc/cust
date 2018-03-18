@@ -1,0 +1,29 @@
+DocumentRoot /srv/ath/pub/cust	
+
+	ScriptAlias /bin/ /srv/ath/src/perl/cust/	
+		
+	   <Directory /srv/ath/src/perl/cust/>
+                AllowOverride None
+                Order allow,deny
+                Allow from all
+                Require all granted
+        </Directory>
+        
+	Alias /files/ /srv/ath/var/files/cust/
+	        <Directory /srv/ath/var/files/cust/>
+                AllowOverride None
+                Order allow,deny
+                Allow from all
+                Require all granted
+        </Directory>
+	
+	<Directory /srv/ath/pub/cust/>
+		AllowOverride None
+		Options +MultiViews +Indexes
+        AddType application/x-httpd-php .php
+                Order allow,deny
+                Allow from all
+                Require all granted
+	</Directory>	
+	
+	

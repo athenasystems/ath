@@ -1,0 +1,27 @@
+$TTL    3600
+@       IN      SOA     ns1.athena.systems. root.athena.systems. (
+                SERIAL              ; Serial
+                         86400         ; Refresh
+                          7200         ; Retry
+                       1209600         ; Expire
+                        3600 )       ; Negative Cache TTL
+;
+@       IN      NS      ns1.athena.systems.
+@       IN      NS      ns2.athena.systems.
+ns1     IN      A       IPADD
+ns2     IN      A       IP2ADD
+
+;also list other computers
+@     	  	IN      A       IPADD
+www   	  	IN      A       IPADD
+adm  	  	IN      A       IPADD
+mng     	IN      A       IPADD
+customers   IN      A       IPADD
+staff     	IN      A       IPADD
+suppliers   IN      A       IPADD
+signup  	IN      A       IPADD
+support 	IN      A       IPADD
+
+mail._domainkey IN      TXT     ( "v=DKIM1; k=rsa; t=y; "
+          "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYyWRCSbROiRT31M6ENYnQLLdZoYktS4lNQDUVRenxUIqQHAsGNeh92f5xtsOMB9tcu+eVDhqddMsoeDSiKwLk1Zjf5W79P/ujREaP8LpGFaxI6yaAWAjE8Fy3SpSHgq4di1KvhwBVUcrr3Wb17ouTkx7pZUzHn6Buu040/XCtsQIDAQAB" )  ; ----- DKIM key mail for athena.systems
+

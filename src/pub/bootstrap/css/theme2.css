@@ -1,0 +1,52 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	
+}
+
+#diaryday {
+	font-size: 90%;
+	border: 1px #fcaf3e solid;
+	padding: 2px;
+	margin: 2px;
+	display: inline;
+	width: 13%;
+	min-height: 100px;
+	float: left;
+}
+
+#diarydayblank {
+	background-color: #ccc;
+	border: 1px #999 solid;
+	padding: 2px;
+	margin: 2px;
+	display: inline;
+	width: 13%;
+	min-height: 100px;
+	float: left;
+}
+.navbar-inverse{
+	background-color: #f57900;
+	background-image: linear-gradient(to bottom, #f57900 0px, #fcaf3e 100%);
+	
+}
+.navbar-inverse .navbar-nav > .open > a{
+	background-color: #f57900;
+	background-image: linear-gradient(to bottom, #f57900 0px, #fcaf3e 100%);
+	
+}
+.navbar-inverse .navbar-nav > li > a {
+
+    color: #2e3436;
+
+}
+.navbar-inverse .navbar-brand{
+
+    color: #2e3436;
+
+}
+.btn-primary {
+    background-image: linear-gradient(to bottom, #f57900 0px, #fcaf3e 100%);
+    background-repeat: repeat-x;
+    border-color: #888a85;
+}

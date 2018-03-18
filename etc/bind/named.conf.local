@@ -1,0 +1,13 @@
+zone "athena.systems" {
+        type master;
+        file "/etc/bind/db.athena.systems";
+    //  allow-transfer { IP2ADD; };
+};
+
+zone "REVIPADD.in-addr.arpa" {
+        type master;
+        notify no;
+        file "/etc/bind/db.SUPIP";
+    //  allow-transfer { IP2ADD; };
+};
+

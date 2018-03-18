@@ -1,0 +1,12 @@
+DocumentRoot /srv/ath/pub/adm
+	
+	ScriptAlias /bin/ /srv/ath/src/perl/mng/
+
+	<Directory /srv/ath/pub/adm/>
+		AllowOverride AuthConfig
+		Options +MultiViews
+        AddType application/x-httpd-php .php
+		Order allow,deny
+		allow from all
+                Require all granted
+	</Directory>
